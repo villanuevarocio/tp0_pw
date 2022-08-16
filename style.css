@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+
+div{
+    padding: 20px;  
+}
+
+#main{
+    background-color: bisque;
+}
+nav{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+nav ul {
+    display: flex;          /*ACA SELECIONAMOS LA LISTA*/
+}
+
+nav li{
+    margin: 20px;           /*ACA SELECCIONAMOS CADA UNO DE LOS PUNTOS DE LA LISTA?*/
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color:red         /*ACA HIZO QUE CUANDO SELECCIONAMOS LOS "LINKS" SE PONGAN DE COLOR*/
+}
+
+nav img{
+    display: flex;
+    max-height: 50px;
+    width: auto;
+}
+
+.menuButton{
+    display: flex;
+    background-color: aliceblue;
+    /*align-items: center;*/
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
